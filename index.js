@@ -31,10 +31,10 @@ function checkPermission(x){
     return function  middle(req, res, next){
          if(req.path==="/libraries"){
             req.valid=true;
-             next()
+            next()
          } else if(req.path==="/authors"){
              req.valid=true;
-             next()
+            next()
          }
 
     }
